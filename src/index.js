@@ -7,11 +7,12 @@ import "./styles.css";
 // import Gallery from "./my-first-component";
 // import TodoList from "./writing-markup-with-jsx";
 // import Avatar from "./5-js-in-jsx-with-curly-braces";
-import Profile from "./6-passing-props-to-component"
+// import Profile from "./6-passing-props-to-component"
+import PackingList from "./7-conditional-rendering";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
-    <Profile />
+    <PackingList />
   </StrictMode>
 );
