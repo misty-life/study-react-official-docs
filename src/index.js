@@ -8,11 +8,12 @@ import "./styles.css";
 // import TodoList from "./writing-markup-with-jsx";
 // import Avatar from "./5-js-in-jsx-with-curly-braces";
 // import Profile from "./6-passing-props-to-component"
-import PackingList from "./7-conditional-rendering";
+// import PackingList from "./7-conditional-rendering";
+import List from "./8-rendering-lists";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
-    <PackingList />
+    <List />
   </StrictMode>
 );
