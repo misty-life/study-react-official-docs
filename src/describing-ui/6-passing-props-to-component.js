@@ -1,4 +1,4 @@
-import { getImageUrl } from "./utils.js";
+import { getImageUrl } from "../utils.js";
 
 function Avatar({ person, size }) {
     return (
